@@ -73,7 +73,7 @@ export const ConfirmationTemplate: React.FC<Readonly<ConfirmationTemplateProps>>
                 display: 'inline-block'
               }}
             >
-              Volver al sitio web
+              Volver al sitio web  
             </a>
           </div>
 
