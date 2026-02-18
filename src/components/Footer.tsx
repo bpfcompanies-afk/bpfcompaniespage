@@ -21,7 +21,7 @@ export default function Footer() {
       {/* --- CONTENIDO --- */}
       <div className="max-w-7xl mx-auto px-4 md:pr-24 flex flex-col md:flex-row justify-between items-center gap-6">
         <p className="text-gray-400 text-sm text-center md:text-left font-light">
-          © 2026 BpfCompanies. Todos los derechos reservados.
+          © 2026 BpfCompanies. <Link href="/legales" className="hover:text-white hover:translate-x-1 transition-all inline-block">Terminos y Condiciones</Link>
         </p>
 
         <div className="flex gap-8 justify-center">
