@@ -14,7 +14,7 @@ export async function POST(request: Request) {
     const data = await resend.batch.send([
       {
         from: 'Gema Web <sistema@gema.bpfcompanies.com>',
-        to: ['gerencia@bpfcompanies.com'], // Tu correo real
+        to: ['bpfcompanies@gmail.com'], // Tu correo real
         subject: `Nuevo Lead: ${name} - Interés: ${service}`,
         react: React.createElement(EmailTemplate, { name, email, company, service: body.service, message }),
       },
