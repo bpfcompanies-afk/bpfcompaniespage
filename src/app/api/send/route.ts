@@ -20,7 +20,7 @@ export async function POST(request: Request) {
       },
       
       {
-        from: 'Equipo Gema <contacto@gema.bpfcompanies.com>',
+        from: 'Equipo BPFCompanies <contact@gema.bpfcompanies.com>',
         to: [email],
         subject: '¡Recibimos tu mensaje!',
         react: React.createElement(ConfirmationTemplate, { name }),
