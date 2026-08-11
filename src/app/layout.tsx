@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'BpfCompanies', // Ejemplo: TechSolutions | Desarrollo Web Rápido
-  description: 'Una breve descripción que aparecerá en Google (máx 155 caracteres). Ayudamos a empresas a escalar con tecnología...',
+  description: 'Ayudamos a empresas a escalar con tecnología...',
 }
 
 export default function RootLayout({
